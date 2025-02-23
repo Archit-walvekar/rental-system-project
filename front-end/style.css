@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #07111c;
+}
+h2{
+    color: whitesmoke;
+}
+.container {
+    background: rgb(35, 31, 39);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #07111c;
+    color: whitesmoke;
+}
+button {
+    width: 40%;
+    padding: 10px;
+    background-color: #086db0;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30px;
+ 
+}
+button:hover {
+    background-color: #084264;
+}
+.switch  {
+    color: whitesmoke;
+    text-decoration: none;
+}
+.switch a  {
+    color: rgb(117, 175, 247);
+    text-decoration: none;
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+.forgot-password a {
+    color: whitesmoke;
+    text-decoration: none;
+}
